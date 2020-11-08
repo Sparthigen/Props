@@ -9,7 +9,7 @@ const {alert, FullName, profession, bio, children}= props;
         <div className='container' style={{ color: 'gray', textAlign: 'center' }}>
             
            <div>
-               <button onClick={alert}>Click to verify User Name</button>
+               <button onClick={handlName}>Click to verify User Name</button>
            </div>
             <h1>
                 Hello I am {FullName}
